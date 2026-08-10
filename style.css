@@ -478,3 +478,109 @@ footer{
     color:#F8F4E8;
     margin-bottom:12px;
 }
+/* ================= HP - HOME ================= */
+
+@media (max-width: 768px){
+
+    .hero{
+        padding:85px 12px 20px;
+    }
+
+    .hero-banner{
+        height:680px;
+        border-radius:20px;
+    }
+
+    .hero-image{
+        width:100%;
+        height:100%;
+        object-fit:cover;
+    }
+
+    .hero-overlay{
+        padding:35px 25px;
+        justify-content:flex-start;
+    }
+
+    /* Logo tetap di atas */
+    .hero-logo{
+        width:270px;
+        max-width:90%;
+        margin-top:5px;
+        margin-bottom:65px;
+    }
+
+    /* Tentang kami */
+    .hero-overlay h1{
+        font-size:16px;
+        margin-bottom:12px;
+    }
+
+    .hero-overlay p{
+        width:100%;
+        font-size:15px;
+        line-height:1.7;
+        margin-bottom:28px;
+    }
+
+    /* Tombol */
+    .hero-button{
+        display:flex;
+        gap:10px;
+    }
+
+    .btn-menu,
+    .btn-outline{
+        padding:11px 22px;
+        font-size:14px;
+        white-space:nowrap;
+    }
+
+
+    /* ================= HP - LOKASI ================= */
+
+    #lokasi{
+        padding:60px 15px !important;
+    }
+
+    #lokasi .container{
+        width:100%;
+        padding:0;
+    }
+
+    #lokasi .section-title{
+        font-size:32px;
+    }
+
+    #lokasi .section-subtitle{
+        font-size:14px;
+        margin-bottom:25px;
+    }
+
+    #lokasi iframe{
+        display:block;
+        width:100% !important;
+        height:330px !important;
+        border:0;
+        border-radius:18px;
+    }
+
+    .jam-operasional{
+        width:100%;
+        margin-top:25px;
+        padding:25px 15px;
+        border-radius:18px;
+        box-sizing:border-box;
+    }
+
+    .jam-operasional h3{
+        font-size:21px;
+        margin-bottom:18px;
+    }
+
+    .jam-operasional p{
+        font-size:14px;
+        line-height:1.6;
+    }
+
+}
